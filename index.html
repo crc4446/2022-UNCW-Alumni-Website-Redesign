@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alumni Association</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+    <header>
+        <nav class="nav-bar">
+            <a href="#" class="logo"><img src="assets/mobilelogo.png" width="125px" height="90px" alt="alumni logo"></a>
+            <a href="#" class="web-logo"><img src="assets/weblogo.png" width="300px" height="60px" alt="alumni logo"></a>
+
+            <ul class="nav-menu">
+                <li class="nav-item" id="nav1">
+                    <a href="#" class="nav-link">About</a>
+                    <div class="dropdown-content" id="dropdown-cont-0">
+                        <a href="#">Mission</a>
+                        <a href="#">Contact Our Team</a>
+                        <a href="#">Board of Directors</a>
+                        <a href="#">Wise Alumni House</a>
+                        <a href="#">UNCW Legacies</a>
+                        <a href="#">Info for Students</a>
+                    </div>
+                </li>
+                <hr>
+                <li class="nav-item" id="nav2">
+                    <a href="#" class="nav-link">Benefits</a>
+                    <div class="dropdown-content" id="dropdown-cont-1">
+                        <a href="#">Campus Access & Discounts</a>
+                        <a href="#">Network with Alumni</a>
+                        <a href="#">Job Search Tools</a>
+                        <a href="#">Employer Development</a>
+                        <a href="#">UNCW Magazine</a>
+                        <a href="#">Alumni E-Newsletter</a>
+                        <a href="#">Virtual Resources</a>
+                    </div>
+                </li>
+                <hr>
+                <li class="nav-item" id="nav3">
+                    <a href="#" class="nav-link">Connect</a>
+                    <div class="dropdown-content" id="dropdown-cont-2">
+                        <a href="#">Events Calendar</a>
+                        <a href="#">Chapters & Groups</a>
+                        <a href="#">Update Your Info</a>
+                        <a href="#">Share Your News</a>
+                        <a href="#">Send an ECard</a>
+                        <a href="#">Recruit & Hire Seahawks</a>
+                    </div>
+                </li>
+                <hr>
+                <li class="nav-item" id="nav4">
+                    <a href="#" class="nav-link">Awards & Scholarships</a>
+                    <div class="dropdown-content" id="dropdown-cont-3">
+                        <a href="#">Distinguished Alumni Awards</a>
+                        <a href="#">Cameron School of Business Awards</a>
+                        <a href="#">Watson College of Education Awards</a>
+                        <a href="#">School of Nursing Awards</a>
+                        <a href="#">J. Marshal Crews Faculty Award</a>
+                        <a href="#">Student Awards</a>
+                        <a href="#">Student Scholarships</a>
+                    </div>
+                </li>
+                <hr>
+                <li class="nav-item" id="nav5">
+                    <a href="#" class="nav-link">Support UNCW</a>
+                    <div class="dropdown-content" id="dropdown-cont-4">
+                        <a href="#">Alumni Annual Campaign</a>
+                        <a href="#">Seahawks Give</a>
+                        <a href="#">TEALstarter</a>
+                        <a href="#">Seahawks Sports</a>
+                        <a href="#">Buy UNCW Gear</a>
+                    </div>
+                </li>
+                <hr>
+                <a href="#" class="nav-link" id="givebtn"><img src="assets/giveBtn.png" width="100" height="100" alt="give button"></a>
+            </ul>
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+
+        </nav>
+    </header>
+
+    <section class="hero">
+        <img src="assets/heroimage.png" alt="Hero image" class="img">
+
+        <div class="hero-callout">
+            <h2>Congratulations<br> Class of 2022!</h2>
+            
+            <p>Welcome to the UNCW Alumni Association, where your Seahawk family reaches nearly 100,000 across the globe!</p>
+            <button><a href="#">New Grad Resources</a></button>
+        </div>
+    </section>
+
+    <div class="socialContainer">
+        <section>
+            <h2>Connect with Alumni</h2>
+            <p>Network and reconnect with fellow Seahawks, or share your latest news tagging #UNCWalumni, for a chance to be featured on our social channels!</p>    
+        </section>
+        <div class="social-buttons">
+            <a href="#"><img src="assets/facebookbtn.png" height="120px" width="120px" alt="facebook"></a>
+            <a href="#"><img src="assets/instagrambtn.png" height="120px" width="120px" alt="instagram"></a>
+            <a href="#"><img src="assets/twitterBtn.png" height="120px" width="120px" alt="twitter"></a>
+            <a href="#"><img src="assets/linkedbtn.png" height="120px" width="120px" alt="linkedin"></a>
+        </div>
+
+        <div class="insta-slideshow">
+            <div class="insta-imgs">
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <div class="insta-tag">
+                    <div class="icon"></div>
+                    <h2>uncw.alumni</h2>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="update-share">
+        <div class="update">
+            <div class="update-icon"></div>
+            <button><a href="#">Update <br> Your <br> Info</a></button>
+        </div>
+
+        <div class="share">
+            <div class="share-icon"></div>
+            <button><a href="#">Share <br> Your <br> News</a></button>
+        </div>
+    </div>
+
+    <div class="news">
+        <h2>Latest News</h2>
+        <div class="main">
+            <a href="#" class="main1">
+                <img src="assets/newsplaceholder.jpg" alt="Article image" id="mainOneImg">
+                <div class="art">
+                    <h2>Article Title</h2>
+                    <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar proin gravida hendrerit lectus.
+                    </p>    
+                </div>
+            </a>
+            <a href="#" class="main2">
+                <img src="assets/newsplaceholdertwo.jpg" alt="Article image" id="mainTwoImg">
+                <div class="art">
+                    <h2>Article Title</h2>
+                    <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar proin gravida hendrerit lectus.
+                    </p>    
+                </div>
+            </a>
+        </div>
+        <div class="sub">
+            <a href="#" class="sub1">
+                <h2>Article Title</h2>
+                <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar proin gravida hendrerit lectus.
+                </p>    
+            </a>
+            <hr>
+            <a href="#" class="sub2">
+                <h2>Article Title</h2>
+                <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar proin gravida hendrerit lectus.
+                </p>    
+            </a>
+            <hr>
+            <a href="#" class="sub3">
+                <h2>Article Title</h2>
+                <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar proin gravida hendrerit lectus.
+                </p>    
+            </a>
+        </div>
+    </div>
+
+    <div class="events">
+        <img src="assets/soaring.png" alt="Hawk" id="soaring">
+        <div class="event-head">
+            <h2>Upcoming Events</h2>
+            <a href="#">More</a>
+        </div>
+        <div class="highlight-events">
+            <a href="#" class="event">
+                <div class="date-card">
+                    <h3>FEB <br> 1</h3>
+                </div>
+                <div class="desc">
+                    <h3>Event Name</h3>
+                    <p>consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                </div>
+            </a>
+            <a href="#" class="event">
+                <div class="date-card">
+                    <h3>FEB <br> 1-4</h3>
+                </div>
+                <div class="desc">
+                    <h3>Event Name</h3>
+                    <p>consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                </div>
+            </a>
+            <a href="#" class="event">
+                <div class="date-card">
+                    <h3>FEB 1 <br> - <br> MAR 12</h3>
+                </div>
+                <div class="desc">
+                    <h3>Event Name</h3>
+                    <p>consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="callout-section">
+        <div class="callout">
+            <img src="assets/icons/chapters.png" alt="chapters logo" width="160" height="100" id="chapters">
+            <h2>Alumni <br> Chapters & Groups</h2>
+            <p>Connecting Seahawks by region or affinity, alumni chapters and groups provide opportunities to network with fellow graduates, remain engaged and stay informed <br><a href="#">Learn more ></a></p>
+        </div>
+        <div class="callout">
+            <img src="assets/icons/suitcase.png" alt="services logo" width="180" height="50" id="serv-ben">
+            <h2>Services & Benefits</h2>
+            <p>Take advantage of lifelong career and professional development services for <a href="#">job seekers</a> and <a href="#">employers</a>. Other <a href="#">benefits</a> include campus access, exclusive discounts and receiving UNCW news straight to your mailbox or inbox
+            </p>
+        </div>
+        <div class="callout">
+            <img src="assets/icons/generation.png" alt="support logo" width="160" height="160" id="next-gen">
+            <h2>Supporting our Next <br> Generation</h2>
+            <p>Along with shaping the next generation of change makers, alumni donors also impact UNCW's rankings and the value of your degree. <br><a href="#">Learn more ></a></p>
+        </div>
+
+    </div>
+
+    <div class="wrapFooter">
+        <div class="footer-cols">
+            <div class="f-col-one">
+                <img src="assets/stackeduncw.png" alt="uncw stacked logo" width="150" height="150" id="uncw-stack">
+                <p>UNCW WILMINGTON <br><br> UNCW ALUMNI ASSOCIATION <br> 601 S. COLLEGE RD. <br> WILMINGTON, NC 28403-5906 <br><br> 800.596.2880 <br> alumni@uncw.edu</p>
+
+            </div>
+            <div class="f-col-two">
+                <h2>UNIVERSITY</h2>
+                <ul>
+                    <li><a href="#">Academics</a></li>
+                    <li><a href="#">Admissions</a></li>
+                    <li><a href="#">Athletics</a></li>
+                    <li><a href="#">Bookstore</a></li>
+                    <li><a href="#">Calendar</a></li>
+                    <li><a href="#">Campus Map</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Library</a></li>
+                    <li><a href="#">News</a></li>
+                </ul>
+            </div>
+            <div class="f-col-three">
+                <h2>ALUMNI RESOURCES</h2>
+                <ul>
+                    <li><a href="#">Alumni Directory</a></li>
+                    <li><a href="#">Campus Tours</a></li>
+                    <li><a href="#">Career Resources</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Events Calendar</a></li>
+                    <li><a href="#">Give Online</a></li>
+                    <li><a href="#">Personal Giving History</a></li>
+                    <li><a href="#">Request Transcript</a></li>
+                    <li><a href="#">Request Diploma</a></li>
+                </ul>
+            </div>
+            <div class="socialIcons">
+                <div class="f-col-four">
+                    <a href="#"><img src="assets/fb.png" alt="Social Icons"></a>
+                    <a href="#"><img src="assets/ytube.png" alt="Social Icons"></a>
+
+                </div>
+                <div class="f-col-five">
+                    <a href="#"><img src="assets/twitter.png" alt="Social Icons"></a>
+                    <a href="#"><img src="assets/insta.png" alt="Social Icons"></a>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="bottom-nav">
+            <a href="#">About this site</a> |
+            <a href="#">Copyright notice</a> |
+            <a href="#">Website feedback form</a>
+        </div>
+    </div>
+
+
+    <script src="events.js"></script>
+</body>
+</html>
